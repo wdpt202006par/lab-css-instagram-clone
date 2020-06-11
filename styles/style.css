@@ -16,7 +16,7 @@ body {
 }
 
 .phones{
-  padding-right: 50px
+  padding-right: 40px
 }
 
 .header{
@@ -32,16 +32,18 @@ body {
 }
 
 .brand{
-  width: 250px;
+	width: 250px;
+	margin-left: 20px;
 }
 
 .text h1{
   color: #1c5380
 }
 
-.text{
-  
-}
+/* uncpmplete .text{
+	background-image: url(/images/frame.png);
+
+} */
 
 .text-background{
   padding: 10px 30px;
