@@ -13,7 +13,6 @@ body {
 #big-div {
   background:white;
   display: flex;
-  
 }
 
 #header {
@@ -21,7 +20,6 @@ body {
   justify-content: space-between;
   width: 70%;
   align-items: center;
-  
 }
 
 button {
@@ -39,7 +37,21 @@ button p {
 
 #brand {
   width: 70%;
-  
 }
 
+#div-right {
+  width:70%;
+  padding-left:7%;
+}
 
+#text {
+  background-color:white;
+  border:1px solid black;
+  border-radius: 7px;
+  padding:5%;
+}
+
+h1 {
+  font-size:1.5em;
+  color:#06365f;
+}
