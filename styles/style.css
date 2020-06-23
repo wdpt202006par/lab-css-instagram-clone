@@ -9,8 +9,13 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background-color: #06365f;
+  background: rgb(28,83,128);
+  background: linear-gradient(180deg, rgba(28,83,128,1) 0%, rgba(6,54,95,1) 35%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 100%); 
   height: 100vh;
+}
+
+strong {
+  font-weight: 600;
 }
 
 #container {
@@ -20,14 +25,11 @@ body {
   justify-content: center;
   align-items: center;
 }
-/* 
-div {
-  margin: auto;
-} */
 
 #instagram {
   display: flex;
   align-items: center;
+  margin-bottom: 1.5em;
 }
 
 .logo {
@@ -53,7 +55,7 @@ div {
 }
 
 .content {
-  width: 40%;
+  width: 35%;
 }
 
 .text-section {
@@ -62,14 +64,25 @@ div {
   padding: 1.5em;
 }
 
+h1 {
+  color: #06365f;
+  margin: 0;
+}
+
+#phone-badge {
+  margin-top: 2em;
+}
+
+#phone-badge :first-child {
+  margin-right: 20px;
+}
 
 footer {
-  height: 20vh;
+  height: 7vh;
   display:flex;
   justify-content: center;
   align-items: center;
-  color:white;
-
+  color:#06365f;
 }
 
 footer ul {
@@ -78,4 +91,11 @@ footer ul {
 
 footer li {
   display: inline-block;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0 7.5px;
+}
+
+.copy-right {
+  color: grey;
 }
