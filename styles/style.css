@@ -17,11 +17,13 @@ body {
   display: flex;
   margin: auto;
   height: 80vh;
+  justify-content: center;
+  align-items: center;
 }
-
+/* 
 div {
   margin: auto;
-}
+} */
 
 #instagram {
   display: flex;
@@ -57,11 +59,17 @@ div {
 .text-section {
   background: white;
   border-radius: 5px;
+  padding: 1.5em;
 }
 
 
 footer {
   height: 20vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+
 }
 
 footer ul {
