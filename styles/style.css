@@ -7,4 +7,47 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100%;
+}
+.container {
+  display: flex;
+  background-color: pink;
+  margin: 100px;
+}
+.iphone {
+  width: 40%;
+}
+.instagram {
+  background-color: tomato;
+  width: 50%;
+}
+header {
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.button-home {
+  background-color: yellow;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  /*padding: 10px;*/
+}
+header img {
+  width: 50%;
+}
+.button-home button {
+  padding :  0px 30px;
+}
+
+
+
+
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 10px 20px 10px;
+  background-color: red;
 }
