@@ -13,13 +13,15 @@ body {
 
 }
 
-header {
+/*header {
   background-color: rgb(78, 115, 149);
   padding: 100px;
-}
+}*/
 
 #masterLayout {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #presentation {
@@ -27,4 +29,25 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 50%;
+}
+
+.text {
+  border: 1px solid grey;
+}
+
+ul {
+  display: flex;
+
+}
+
+ul li {
+  list-style: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
