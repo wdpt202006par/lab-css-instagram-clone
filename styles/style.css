@@ -12,46 +12,56 @@ body {
 }
 .container {
   display: flex;
-  background-color: pink;
-  margin: 100px;
+  /*background-color: pink;*/
+  width: 80%;
+  margin: 100px 150px 50px 150px;
 }
 .iphone {
   width: 40%;
 }
 .instagram {
-  background-color: tomato;
-  width: 50%;
+  /*background-color: tomato;*/
+  width: 40%;
 }
 header {
-  background-color:#1c5380;
+  /*background-color:#1c5380;*/
   display: flex;
   align-items: center;
   margin-left: auto;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+header > img {
+  width: 50%;
 }
 .button-home {
-  background-color:#06365f;
+  background-color:#1c5380;
   margin-left: auto;
   display: flex;
   align-items: center;
   padding: 5px;
-  border: 1px solid #06365f;
+  border: 1px solid #1c5380;
   border-radius:5px;
-  margin-right: 5px;
 }
-header img {
-  width: 50%;
-}
+
 .button-home button {
-  padding :  0px 30px;
-  background-color:#06365f;
+  background-color:#1c5380;
+  padding:0px;
+  margin-left: 5px;
   border: none;
   color: antiquewhite;
   font-weight: bold;
 }
+.button-home > img {
+  width: 25%;
+}
 
 article{
-  background-color: antiquewhite;
-  margin: 20px 30px;
+  /*background-color: antiquewhite;*/
+  margin-top: 15px;
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid;
 }
 
 article h3{
@@ -61,9 +71,11 @@ article h3{
   display: inline-block;
   font-size: 150%;
   font-weight: bold;
+  margin-top: 10px;
 }
  article p {
-display: inline-block;
+  display: inline-block;
+  margin: 10px;
  }
 
 #bold{
@@ -72,25 +84,29 @@ display: inline-block;
 }
 
  .images-download {
-display: flex;
-justify-content: space-around;
-padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
  }
 
 footer{
-  margin: 0 100px;
+  margin-left: 280px;
+  width: 700px;
 }
 footer ul {
   display: flex;
   justify-content: space-around;
-  margin: 0px 10px 20px 10px;
-  border: 5px solid #06365f;
   list-style: none;
+  padding: 0px;
+  line-height: 80%;
 }
 
 footer ul li a {
   text-decoration: none;
   font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  
   color: #1c5380;
 }
 
