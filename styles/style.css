@@ -90,10 +90,14 @@ span {
   margin-left: 8em;
 }
 
+.btn img {
+  width: 30%;
+}
+
 .images button {
   background-color: #06365f;
   border: 1px solid #06365f;
-  width: 6em;
+  width: 6.5em;
   height: 3em;
   display: flex;
   flex-direction: row;
@@ -101,6 +105,7 @@ span {
   justify-content: space-evenly;
   color: #ffffff;
   font-weight: 700;
+  cursor: pointer;
 }
 
 
