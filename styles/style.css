@@ -3,8 +3,132 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  box-sizing: border-box
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: linear-gradient(to bottom, 
+  #1c5380 38%, #ffffff 20%);
+  background-repeat: no-repeat;
+
+}
+
+/*header {
+  background-color: rgb(78, 115, 149);
+  padding: 100px;
+}*/
+
+
+#masterLayout {
+  margin-top: 7%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.phones{
+  margin-left: 18em;
+}
+
+#presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  margin-right: 18em;
+  
+}
+
+.text {
+  border-radius: 0.4em;
+  padding: 1em 2em;
+  background-color: #ffffff;
+  box-shadow: 3px 0px 12px #aaa;
+}
+
+.text h3 {
+  color: #06365f;
+  font-size: 1.5em;
+}
+
+.text h3 span {
+  display: block;
+}
+
+.text p {
+  font-size: 90%;
+  line-height: 1.5em;
+}
+
+span {
+  font-weight: 700;
+}
+
+.badge {
+  margin-top: 3em;
+}
+
+.images {
+  margin-right: 10em;
+  margin-bottom: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.images img {
+  width: 80%;
+}
+
+.btn {
+  margin-left: 8em;
+}
+
+.btn img {
+  width: 30%;
+}
+
+.images button {
+  background-color: #06365f;
+  border: 1px solid #06365f;
+  width: 6.5em;
+  height: 3em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+ul li {
+  list-style: none;
+  color: #1c5380;
+  font-weight: 700;
+}
+
+.insta {
+  color: grey;
+}
+
+footer {
+  margin-top: 3%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
