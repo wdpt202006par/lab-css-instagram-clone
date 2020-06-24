@@ -11,7 +11,8 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   background-image: linear-gradient(to bottom, 
-  #1c5380 38% 0%, #ffffff 20%);
+  #1c5380 38%, #ffffff 20%);
+  background-repeat: no-repeat;
 
 }
 
@@ -30,7 +31,7 @@ body {
 }
 
 .phones{
-  margin-left: 15em;
+  margin-left: 18em;
 }
 
 #presentation {
@@ -39,7 +40,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 30%;
-  margin-right: 15em;
+  margin-right: 18em;
   
 }
 
@@ -68,7 +69,12 @@ span {
   font-weight: 700;
 }
 
+.badge {
+  margin-top: 3em;
+}
+
 .images {
+  margin-right: 10em;
   margin-bottom: 3%;
   display: flex;
   flex-direction: row;
@@ -77,13 +83,18 @@ span {
 }
 
 .images img {
-  width: 60%;
+  width: 80%;
+}
+
+.btn {
+  margin-left: 8em;
 }
 
 .images button {
-  background-color: #1c5380;
-  border: 1px solid #1c5380;
-  width: 5em;
+  background-color: #06365f;
+  border: 1px solid #06365f;
+  width: 6em;
+  height: 3em;
   display: flex;
   flex-direction: row;
   align-items: center;
